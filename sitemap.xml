@@ -18,6 +18,26 @@
   </url>
   
   <url>
+    <loc>https://aunagar.github.io/project/rlbattery/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/project/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/tag/reinforcement-learning/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/tags/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc></loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url>
@@ -59,16 +79,6 @@
   
   <url>
     <loc>https://aunagar.github.io/publication/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aunagar.github.io/tag/reinforcement-learning/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aunagar.github.io/tags/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,12 +128,27 @@
   </url>
   
   <url>
-    <loc>https://aunagar.github.io/publication-type/3/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <loc>https://aunagar.github.io/tag/3d-vision/</loc>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://aunagar.github.io/tag/3d-vision/</loc>
+    <loc>https://aunagar.github.io/project/3dvision/</loc>
+    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/tag/continual-learning/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/project/clibm/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/publication-type/3/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,8 +178,18 @@
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <loc>https://aunagar.github.io/project/robodance/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/tag/others/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aunagar.github.io/project/hpc/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -165,21 +200,6 @@
   <url>
     <loc>https://aunagar.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aunagar.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aunagar.github.io/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aunagar.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
