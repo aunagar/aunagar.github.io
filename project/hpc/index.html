@@ -32,7 +32,7 @@
   
     
   
-  <meta name="description" content="Parallel, HPC" />
+  <meta name="description" content="Parallelization of subpgraph isomorphism solvers- VF2 ang Glasgow" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://aunagar.github.io/project/hpc/" />
@@ -299,7 +299,7 @@
   <meta property="og:site_name" content="Ajay Unagar" />
   <meta property="og:url" content="https://aunagar.github.io/project/hpc/" />
   <meta property="og:title" content="Parallel algorithms for Subgraph Isomorphism (OpenMP and MPI) | Ajay Unagar" />
-  <meta property="og:description" content="Parallel, HPC" /><meta property="og:image" content="https://aunagar.github.io/project/hpc/featured.png" />
+  <meta property="og:description" content="Parallelization of subpgraph isomorphism solvers- VF2 ang Glasgow" /><meta property="og:image" content="https://aunagar.github.io/project/hpc/featured.png" />
     <meta property="twitter:image" content="https://aunagar.github.io/project/hpc/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -354,7 +354,7 @@
       "url": "https://aunagar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Parallel, HPC"
+  "description": "Parallelization of subpgraph isomorphism solvers- VF2 ang Glasgow"
 }
 </script>
 
@@ -577,6 +577,43 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
         </li>
 
         
@@ -853,7 +890,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 592px; max-height: 413px;">
   <div style="position: relative">
     <img src="/project/hpc/featured.png" alt="" class="featured-image">
-    <span class="article-header-caption">RL framework to learn to calibrate battery models</span>
+    <span class="article-header-caption">Speedups for different subgraph isomorphism datasets using VF2 algorithm parallelization</span>
   </div>
 </div>
 
@@ -862,8 +899,9 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Details on 3D Vision project</p>
-
+      <div style="text-align: justify">
+<p>We proposed two parallel implementations of popular subgraph isomorphism solvers: VF2 and Glasgow. The recursive DFS in VF2 was parallelized using OpenMP tasks, and we aimed to limit the excessive work done by additional threads. In Glasgow, we parallelized the complete algorithm using OpenMP, and we put special attention to compiler optimizations and OpenMP task amount limitation. Furthermore, a large section of Glasgow was parallelized with MPI one-sided communication. All the implementations are benchmarked on a wide range of graph pairs from literature, and we compare our Glasgow OpenMP implementation with the parallel version proposed by the author of Glasgow algorithm. We discuss when good scaling can be expected, and where improvements are possible.</p>
+</div>
     </div>
 
     
