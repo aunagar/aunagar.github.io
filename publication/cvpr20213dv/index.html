@@ -32,10 +32,10 @@
   
     
   
-  <meta name="description" content="MSc Student" />
+  <meta name="description" content="__CVPR&#39;21__" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://aunagar.github.io/publication-type/3/" />
+  <link rel="alternate" hreflang="en-us" href="https://aunagar.github.io/publication/cvpr20213dv/" />
 
   
 
@@ -309,8 +309,6 @@
   
 
   
-    <link rel="alternate" href="/publication-type/3/index.xml" type="application/rss+xml" title="Ajay Unagar" />
-  
 
   
     <link rel="manifest" href="/index.webmanifest" />
@@ -319,7 +317,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://aunagar.github.io/publication-type/3/" />
+  <link rel="canonical" href="https://aunagar.github.io/publication/cvpr20213dv/" />
 
   
   
@@ -338,29 +336,76 @@
     <meta property="twitter:creator" content="@aaunagar" />
   
   <meta property="og:site_name" content="Ajay Unagar" />
-  <meta property="og:url" content="https://aunagar.github.io/publication-type/3/" />
-  <meta property="og:title" content="3 | Ajay Unagar" />
-  <meta property="og:description" content="MSc Student" /><meta property="og:image" content="https://aunagar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+  <meta property="og:url" content="https://aunagar.github.io/publication/cvpr20213dv/" />
+  <meta property="og:title" content="Back to the Feature: Learning Robust Camera Localization from Pixels to Pose | Ajay Unagar" />
+  <meta property="og:description" content="__CVPR&#39;21__" /><meta property="og:image" content="https://aunagar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
     <meta property="twitter:image" content="https://aunagar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2020-06-01T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2021-02-01T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2021-02-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aunagar.github.io/publication/cvpr20213dv/"
+  },
+  "headline": "Back to the Feature: Learning Robust Camera Localization from Pixels to Pose",
+  
+  "datePublished": "2021-02-01T00:00:00Z",
+  "dateModified": "2021-02-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "PE Sarlin"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ajay Unagar",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aunagar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "__CVPR'21__"
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>3 | Ajay Unagar</title>
+  <title>Back to the Feature: Learning Robust Camera Localization from Pixels to Pose | Ajay Unagar</title>
 </head>
 
 
@@ -773,6 +818,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -781,39 +837,333 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>Back to the Feature: Learning Robust Camera Localization from Pixels to Pose</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>3</h1>
+
+
+<div class="article-metadata">
 
   
+  
+  
+  
+  <div>
+    
+
+  <span >
+      PE Sarlin</span>, <span >
+      Ajay Unagar</span>, <span >
+      M Larsson</span>, <span >
+      H Germain</span>, <span >
+      C Toft</span>, <span >
+      V Larsson</span>, <span >
+      M Pollefeys</span>, <span >
+      V Lepetit</span>, <span >
+      L Hammarstrand</span>, <span >
+      F Kahl</span>, <span >
+      T Sattler</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    February 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Camera pose estimation in known scenes is a 3D geometry task recently tackled by multiple learning algorithms. Many regress precise geometric quantities, like poses or 3D points, from an input image. This either does not generalize to new viewpoints or ties the model parameters to a specific scene. In this paper, we go Back to the Feature; we argue that deep networks should focus on learning robust and invariant visual features, while the geometric estimation should be left to principled algorithms. We introduce PixLoc, a scene-agnostic neural network that estimates an accurate 6-DoF pose from an image and a 3D model. Our approach is based on the direct alignment of multiscale deep features, casting camera localization as metric learning. PixLoc learns strong data priors by end-to-end training from pixels to pose and exhibits exceptional generalization to new scenes by separating model parameters and scene geometry. The system can localize in large environments given coarse pose priors but also improve the accuracy of sparse feature matching by jointly refining keypoints and poses with little overhead.</p>
+    
+
     
     
-    
-    <div>
-      <h2><a href="/publication/cvpr20203dv/" >6-DoF Pose Refinement via Sparse-to-Dense Feature-Metric Optimization</a></h2>
-      <div class="article-style">
-        
-          __CVPR'20 Workshop__
-        
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">CVPR 2021 (Main conference - Poster)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/camera-pose-estimation/">Camera Pose Estimation</a>
+  
+  <a class="badge badge-light" href="/tag/3d-vision/">3D Vision</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://aunagar.github.io/publication/cvpr20213dv/&amp;text=Back%20to%20the%20Feature:%20Learning%20Robust%20Camera%20Localization%20from%20Pixels%20to%20Pose" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://aunagar.github.io/publication/cvpr20213dv/&amp;t=Back%20to%20the%20Feature:%20Learning%20Robust%20Camera%20Localization%20from%20Pixels%20to%20Pose" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Back%20to%20the%20Feature:%20Learning%20Robust%20Camera%20Localization%20from%20Pixels%20to%20Pose&amp;body=https://aunagar.github.io/publication/cvpr20213dv/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://aunagar.github.io/publication/cvpr20213dv/&amp;title=Back%20to%20the%20Feature:%20Learning%20Robust%20Camera%20Localization%20from%20Pixels%20to%20Pose" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Back%20to%20the%20Feature:%20Learning%20Robust%20Camera%20Localization%20from%20Pixels%20to%20Pose%20https://aunagar.github.io/publication/cvpr20213dv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://aunagar.github.io/publication/cvpr20213dv/&amp;title=Back%20to%20the%20Feature:%20Learning%20Robust%20Camera%20Localization%20from%20Pixels%20to%20Pose" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/cvpr20203dv/">6-DoF Pose Refinement via Sparse-to-Dense Feature-Metric Optimization</a></li>
+      
+      <li><a href="/project/3dvision/">Deep-direct Visual Localization using learned feature optimization</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
 </div>
   </div>
 
