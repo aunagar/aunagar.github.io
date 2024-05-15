@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ajay Unagar</title>
-    <link>https://aunagar.github.io/</link>
-      <atom:link href="https://aunagar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Ajay Unagar</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://aunagar.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>http://localhost:1313/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Ajay Unagar</title>
-      <link>https://aunagar.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://aunagar.github.io/talk/example-talk/</link>
+      <link>http://localhost:1313/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/talk/example-talk/</guid>
+      <guid>http://localhost:1313/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -33,18 +33,49 @@
     </item>
     
     <item>
+      <title>Robust Planar Optimization for General 3D Room Layout Estimation</title>
+      <link>http://localhost:1313/publication/ismar20223dv/</link>
+      <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/ismar20223dv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Path Planning in a Digital-Twin</title>
+      <link>http://localhost:1313/project/rslthesis/</link>
+      <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/rslthesis/</guid>
+      <description>&lt;div style=&#34;text-align: justify&#34;&gt;
+&lt;p&gt;The global path planning problem focuses on finding a safe and short path for the
+robot to traverse between two places in the world. A Digital-Twin of the real-world
+represents most of the information required for path planning. In this thesis we
+present methods that use the Digital-Twin of the environment as a prior and build
+navigation graphs. These navigation graphs are used for real-time path planning
+during robots’ autonomous operation. First, we show a simulation based approach
+that builds a navigation graph on a large triangular mesh of an environment. We
+also show planned paths of more than 100m in length, spanning indoor and out-
+door terrains, and passing through multiple floors. Second, we propose a deep
+learning-based navigation cost predictor from the point-cloud data. This trained
+cost predictor can be used to build the navigation graphs an order of magnitude
+faster than the simulation-based approach. We also demonstrate that how our
+point-cloud-based navigation cost predictor helps in real-time global re-planning to
+handle large static map changes.&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Back to the Feature: Learning Robust Camera Localization from Pixels to Pose</title>
-      <link>https://aunagar.github.io/publication/cvpr20213dv/</link>
+      <link>http://localhost:1313/publication/cvpr20213dv/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/publication/cvpr20213dv/</guid>
+      <guid>http://localhost:1313/publication/cvpr20213dv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning to calibrate battery models using Deep Reinforcement Learning</title>
-      <link>https://aunagar.github.io/project/rlbattery/</link>
+      <link>http://localhost:1313/project/rlbattery/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/project/rlbattery/</guid>
+      <guid>http://localhost:1313/project/rlbattery/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Lithium-Ion (Li-I) batteries are used in many physical assets. To enable a good prediction of the end of discharge of batteries, detailed electrochemical Li-I battery models have been developed. However, these battery models need to be calibrated regularly as the batteries degrade. In this paper, we implement a model-free Reinforcement Learning-based framework for reliably and efficiently inferring calibration parameters of battery models. The framework enables real-time inference of the battery degradation parameters in order to compensate the reality-gap from the observations. Most importantly, the proposed methodology does not need any labeled data samples, (samples of observations and the ground truth calibration parameters). Furthermore, to increase the stability of the parameter inference, we incorporate lyapunov energy decreasing condition as a regularizer for our policy network objective. Lyapunov regularizer enables that the inference tracking of the parameters converges to an optimal, no matter the initial condition. The experiments show impressive results compared to Kalman Filter-based approaches. Moreover, this framework is highly general and can be employed in calibration of other computational models.&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -52,18 +83,18 @@
     
     <item>
       <title>Battery Model Calibration with Deep Reinforcement Learning</title>
-      <link>https://aunagar.github.io/publication/neurips2020/</link>
+      <link>http://localhost:1313/publication/neurips2020/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/publication/neurips2020/</guid>
+      <guid>http://localhost:1313/publication/neurips2020/</guid>
       <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://aunagar.github.io/post/getting-started/</link>
+      <link>http://localhost:1313/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/post/getting-started/</guid>
+      <guid>http://localhost:1313/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -155,9 +186,9 @@
     
     <item>
       <title>Deep-direct Visual Localization using learned feature optimization</title>
-      <link>https://aunagar.github.io/project/3dvision/</link>
+      <link>http://localhost:1313/project/3dvision/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/project/3dvision/</guid>
+      <guid>http://localhost:1313/project/3dvision/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Visual Localization plays important role in development of autonomous systems such as cars and drones. Traditional localization pipeline works in multiple phase: (a) retrieving nearest images from reference database (b) detecting and matching features, and (c) estimating pose from the matched features. In this project, we try to combine (b) and (c) and design algorithm for direct camera pose estimation for a query image given a (query, reference) pair. To design a direct localization algorithm, we use learned CNN features and optimize the pose for a query image to minimize the feature error between a query and a reference image pair. We &lt;a href=&#34;https://aunagar.github.io/publication/cvpr20203dv/cvpr20203dv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presented&lt;/a&gt; initial results of this work at CVPR 2020 workshop &lt;a href=&#34;https://sites.google.com/view/vislocslamcvpr2020/home?authuser=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VisLocOdomMap&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -165,9 +196,9 @@
     
     <item>
       <title>Continual Learning in Image Classification</title>
-      <link>https://aunagar.github.io/project/clibm/</link>
+      <link>http://localhost:1313/project/clibm/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/project/clibm/</guid>
+      <guid>http://localhost:1313/project/clibm/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;Deep Neural Networks (DNNs) have been successfully applied to many problems in the medical domain. However, the common assumption of having access to the complete training data may not always hold true. Instead, data could be provided by different sources at different points in time. Especially in the medical field, privacy regulations can exacerbate this problem by prohibiting storage of old data. In such scenarios, proper incremental training for DNNs becomes essential to not forget previously learned knowledge. To this end, a recently published method called Deep Model Consolidation (DMC) proposes knowledge distillation with auxiliary data. We use this method as a benchmark and propose improvements on top of it. Furthermore, we present a novel approach to transform auxiliary images to look more like images from old datasets. With experiments on known benchmark datasets as well as a dataset for tissue type classification, we show that DMC and our image transformer-based method can reduce forgetting of previously acquired knowledge.&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -175,17 +206,17 @@
     
     <item>
       <title>6-DoF Pose Refinement via Sparse-to-Dense Feature-Metric Optimization</title>
-      <link>https://aunagar.github.io/publication/cvpr20203dv/</link>
+      <link>http://localhost:1313/publication/cvpr20203dv/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/publication/cvpr20203dv/</guid>
+      <guid>http://localhost:1313/publication/cvpr20203dv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Making robots dance (in simulation)</title>
-      <link>https://aunagar.github.io/project/robodance/</link>
+      <link>http://localhost:1313/project/robodance/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/project/robodance/</guid>
+      <guid>http://localhost:1313/project/robodance/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;In this project, we used inverse kinematics (IK) to build simple walking gaits for the hexapod. Furthermore, these walking gaits were combined using a motion graph to create complicated motion trajectories for the robot. Furthermore, we used these gaits along with the target following objective to make robot autonomously move to the target position. We also design pre-specified gaits using motion graph, which allow robot to &lt;a href=&#34;https://youtu.be/c9aaSq0QW1I?t=246&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dance&lt;/a&gt;!&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -193,9 +224,9 @@
     
     <item>
       <title>Parallel algorithms for Subgraph Isomorphism (OpenMP and MPI)</title>
-      <link>https://aunagar.github.io/project/hpc/</link>
+      <link>http://localhost:1313/project/hpc/</link>
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/project/hpc/</guid>
+      <guid>http://localhost:1313/project/hpc/</guid>
       <description>&lt;div style=&#34;text-align: justify&#34;&gt;
 &lt;p&gt;We proposed two parallel implementations of popular subgraph isomorphism solvers: VF2 and Glasgow. The recursive DFS in VF2 was parallelized using OpenMP tasks, and we aimed to limit the excessive work done by additional threads. In Glasgow, we parallelized the complete algorithm using OpenMP, and we put special attention to compiler optimizations and OpenMP task amount limitation. Furthermore, a large section of Glasgow was parallelized with MPI one-sided communication. All the implementations are benchmarked on a wide range of graph pairs from literature, and we compare our Glasgow OpenMP implementation with the parallel version proposed by the author of Glasgow algorithm. We discuss when good scaling can be expected, and where improvements are possible.&lt;/p&gt;
 &lt;/div&gt;</description>
@@ -203,9 +234,9 @@
     
     <item>
       <title>Slides</title>
-      <link>https://aunagar.github.io/slides/example/</link>
+      <link>http://localhost:1313/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://aunagar.github.io/slides/example/</guid>
+      <guid>http://localhost:1313/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -252,15 +283,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -327,6 +358,24 @@ Three
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>http://localhost:1313/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
 </description>
     </item>
     
